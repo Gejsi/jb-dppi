@@ -1,0 +1,7 @@
+print z
+scope {
+  print z
+  z = 3
+  print z
+}
+print z

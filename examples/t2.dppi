@@ -1,0 +1,6 @@
+x = 10
+scope {
+  x = 20
+  print x
+}
+print x

@@ -1,0 +1,10 @@
+x = 5
+scope {
+  x = 6
+  scope {
+    x = 7
+    print x
+  }
+  print x
+}
+print x
